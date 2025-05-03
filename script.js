@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Animate elements on scroll
     function animateOnScroll() {
-        const elements = document.querySelectorAll('.course-card, .feature-card, .testimonial-card, .pricing-card');
+        const elements = document.querySelectorAll('.featured-courses, .features-section, .testimonials-section, .pricing-section');
         
         elements.forEach(element => {
             const elementPosition = element.getBoundingClientRect().top;
